@@ -4,29 +4,42 @@ body{
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 
+.menuzin{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
 .menuzin a{
     color: #ffc300;
     text-decoration: none;
+    padding: 15px 50px;
 }
 
 .menuzin a:hover{
+    background-color: #02172e;
     color: #ff0000;
-    text-decoration: none;
+    cursor: pointer;
+    transition: 800ms;
+    text-decoration: underline;
 }
 
 h1{
     color: #ffd60a;
     font-family: 'Press Start 2P', cursive;
     font-size: 18px;
+    text-align: center;
 }
 
 h3{
     color: #04d8cd ;
+    text-align: center;
 }
 
 .trybe{
     color: #2b9348;
-    text-decoration: none   ;
+    text-decoration: none;
 }
 
 .trybe:hover{
@@ -35,6 +48,12 @@ h3{
 
 h2{
     color: #04d8cd;
+}
+
+.listaHabilidades li:nth-child(odd){
+    font-family: 'Press Start 2P', cursive;
+    line-height: 25px;
+    color: #2b9348;
 }
 
 p{
@@ -50,7 +69,24 @@ p{
 
 #fotoKauan{
     border-radius: 100%;
+    float: left;
+    padding: 5px;
+    background-color: #04d8cd;
+    margin-left: 15px;
 }
+.img-container{
+    height: 220px;
+}
+.img-container p{
+    position: absolute;
+    left: 270px;
+    top: 260px;
+}
+
+#habilidadesKauan{
+    margin-left: 2px;
+}
+
 .elemento{
     font-size: 16px;
 }
@@ -61,7 +97,7 @@ p{
 
 .volta{
     color: #d00000;
-    text-decoration: none   ;
+    text-decoration: none;
 }
 
 .volta:hover{
